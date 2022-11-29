@@ -1,0 +1,19 @@
+{
+    "name": "pyncer/exception",
+    "type": "library",
+    "description": "Shared exceptions used by the various pyncer libraries.",
+    "homepage": "https://pyncer.com/exception",
+    "license": "Unlicense",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pyncer\\Exception\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/pyncerrc/pyncer-exception/issues",
+        "source": "https://github.com/pyncerrc/pyncer-exception"
+    }
+}
