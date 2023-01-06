@@ -13,7 +13,7 @@ class DirNotFoundException extends RuntimeException
         $this->dir = $dir;
 
         parent::__construct(
-            'The specified dir, ' . $dir . ', was not found.',
+            'The specified directory, ' . $dir . ', was not found.',
             $code,
             $previous
         );
