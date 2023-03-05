@@ -15,5 +15,10 @@
     "support": {
         "issues": "https://github.com/pyncerrc/pyncer-exception/issues",
         "source": "https://github.com/pyncerrc/pyncer-exception"
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-main" : "1.0-dev"
+        }
     }
 }
